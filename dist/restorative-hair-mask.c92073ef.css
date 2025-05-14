@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+  padding: 20px;
+  display: flex;
+}
+
+.logo {
+  box-shadow: #000;
+  border: 2px solid #000;
+}
+
+nav a {
+  color: #000;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.product {
+  padding: 20px;
+  display: flex;
+}
+
+.product-image img {
+  width: 300px;
+}
+
+.product-details {
+  max-width: 400px;
+  margin-left: 40px;
+}
+
+.badges span {
+  border: 1px solid #000;
+  margin: 5px;
+  padding: 4px 8px;
+  display: inline-block;
+}
+
+.quantity-cart {
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+#add-to-cart {
+  cursor: pointer;
+  background-color: #c4a8a8;
+  border: none;
+  padding: 10px 20px;
+}
+
+#cart-feedback {
+  color: green;
+  margin-top: 10px;
+  display: none;
+}
+
+.accordion-item {
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.accordion-content {
+  padding: 10px 0;
+  display: none;
+}
+
+.carousel {
+  padding: 20px;
+}
+
+.carousel-container {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.carousel-track {
+  gap: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-item {
+  min-width: 200px;
+}
+
+.carousel-arrow {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+/*# sourceMappingURL=restorative-hair-mask.c92073ef.css.map */
